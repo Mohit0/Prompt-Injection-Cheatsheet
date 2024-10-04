@@ -21,7 +21,7 @@
 
 10. Test with Cyrillic script input: привет, как дела
 
-11. Inject HTML tags: <b>bold</b>
+11. Inject HTML tags: ```<b>bold</b>```
 
 12. Test for Command Injection: ; ls;
 
@@ -71,21 +71,21 @@
 
 35. Test for Shell Injection: `ls -la`
 
-36. Send multipart/form-data payloads
+36. Send ```multipart/form-data``` payloads
 
-37. Input long sequence of mixed characters: @#($)!)*&%$#_+!
+37. Input long sequence of mixed characters:  ``` @#($)!)*&%$#_+!```
 
-38. Inject hexadecimal entities: &#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+38. Inject hexadecimal entities:``` &#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;```
 
-39. Check for CRLF Injection: %0d%0aSet-Cookie:username=admin
+39. Check for CRLF Injection: ```%0d%0aSet-Cookie:username=admin```
 
-40. Inject Unicode homoglyph attacks: pаypаl.com (mixture of Cyrillic 'а' and Latin 'a')
+40. Inject Unicode homoglyph attacks: ```pаypаl.com ```(mixture of Cyrillic 'а' and Latin 'a')
 
-41. Test with different delimiter characters: ,;:!|__
+41. Test with different delimiter characters: ```,;:!|__```
 
-42. Input escape characters in JSON: { "text": "Hello\\nWorld" }
+42. Input escape characters in JSON: ```{ "text": "Hello\\nWorld" }```
 
-43. Check response for Unicode confusables: "℅" vs "%"
+43. Check response for Unicode confusables:``` "℅" vs "%"```
 
 44. Input mixed RTL and LTR text: שלום, Hello
 
